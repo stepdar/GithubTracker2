@@ -1,9 +1,6 @@
 package fr.wildcodeschool.githubtracker.service;
 
-import fr.wildcodeschool.githubtracker.dao.GithubUtils;
-import fr.wildcodeschool.githubtracker.dao.GithuberDAO;
-import fr.wildcodeschool.githubtracker.dao.InMemory;
-import fr.wildcodeschool.githubtracker.dao.MemoryGithuberDAO;
+import fr.wildcodeschool.githubtracker.dao.*;
 import fr.wildcodeschool.githubtracker.model.Githuber;
 
 import javax.enterprise.context.Dependent;
@@ -14,20 +11,30 @@ import java.util.List;
 public class GithubersService  {
 
 
-    private @InMemory GithuberDAO listDao;
+    //private @InMemory GithuberDAO listDao;
 
-    @Inject
+
+    private GithuberDAO listDao2;
+
+   /* @Inject
     public GithubersService(@InMemory GithuberDAO listDao)
     {
         this.listDao = listDao;
+    }*/
+    @Inject
+    public GithubersService(@InDatabase GithuberDAO listDao2){
+        this.listDao2 = listDao2;
     }
 
-    public List<Githuber> getAllGithubers(){
+   /* public List<Githuber> getAllGithubers(){
         return listDao.getGithubers();
-    }
+    }*/
+   public List<Githuber> getAllGithubers(){
+       return listDao2.getGithubers();
+   }
 
     public Githuber getGithuber(String login){
-    List<Githuber> listGithubers=listDao.getGithubers();
+    List<Githuber> listGithubers=listDao2.getGithubers();//listDao.getGithuber
         Githuber githuber = listGithubers.stream()
                 .filter(x -> login.equals(x.getLogin()))
                 .findAny()
@@ -36,6 +43,16 @@ public class GithubersService  {
     }
 
     public void track(String login){
-       // TODO
+       Githuber githu = getGithuber(login);
+       if(githu != null){
+           listDao2.saveGithuber(githu);
+       }
+    }
+
+    public void untrack(String login){
+        Githuber githu = getGithuber(login);
+        if(githu != null){
+            listDao2.removeGithuber(login);
+        }
     }
 }

@@ -54,6 +54,10 @@ public class MemoryGithuberDAO implements GithuberDAO  {
         }
     }
 
+    @Override
+    public void removeGithuber(String login) {
+
+    }
 
 
     @PostConstruct

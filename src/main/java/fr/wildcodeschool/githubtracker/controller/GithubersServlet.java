@@ -27,10 +27,10 @@ public class GithubersServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String login = req.getParameter("login");
+       /*String login = req.getParameter("login");
         if(login!=null){
             ghs.track(login);
-        }
+        }*/
 
         req.setAttribute("listGithuber",ghs.getAllGithubers());
         req.getRequestDispatcher("/githubers.jsp").forward(req, resp);

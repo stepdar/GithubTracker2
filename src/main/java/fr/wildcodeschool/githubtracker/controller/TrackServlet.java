@@ -1,9 +1,6 @@
 package fr.wildcodeschool.githubtracker.controller;
 
-import fr.wildcodeschool.githubtracker.dao.GithubUtils;
-import fr.wildcodeschool.githubtracker.dao.GithuberDAO;
-import fr.wildcodeschool.githubtracker.dao.InMemory;
-import fr.wildcodeschool.githubtracker.dao.MemoryGithuberDAO;
+import fr.wildcodeschool.githubtracker.dao.*;
 import fr.wildcodeschool.githubtracker.service.GithubersService;
 
 import javax.inject.Inject;
@@ -17,7 +14,8 @@ import java.io.IOException;
 @WebServlet(name = "TrackServlet", urlPatterns = "/track")
 public class TrackServlet extends HttpServlet {
    @Inject
-   @InMemory GithuberDAO memoryList;
+   @InDatabase
+   GithuberDAO memoryList;
 
    @Inject
    GithubUtils utils;

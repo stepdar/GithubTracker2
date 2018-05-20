@@ -37,4 +37,9 @@ public class DumbGithuberDAO implements GithuberDAO {
     public void saveGithuber(Githuber githuber) {
         throw new UnsupportedOperationException();
     }
+
+    @Override
+    public void removeGithuber(String login) {
+
+    }
 }
