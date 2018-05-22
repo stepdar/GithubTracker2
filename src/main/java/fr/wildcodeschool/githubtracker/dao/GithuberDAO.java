@@ -14,4 +14,6 @@ public interface GithuberDAO {
     void saveGithuber(Githuber githuber);
 
     void removeGithuber(String login);
+
+    void removeGithuberId(long id);
 }

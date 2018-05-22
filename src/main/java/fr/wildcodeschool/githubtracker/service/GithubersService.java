@@ -55,4 +55,20 @@ public class GithubersService  {
             listDao2.removeGithuber(login);
         }
     }
+
+    public void untrack2(long id){
+        Githuber githu = getGithuberID(id);
+        if(githu != null){
+            listDao2.removeGithuberId(id);
+        }
+    }
+
+    private Githuber getGithuberID(long id) {
+        List<Githuber> listGithubers=listDao2.getGithubers();//listDao.getGithuber
+        Githuber githuber = listGithubers.stream()
+                .filter(x -> id==x.getId())
+                .findAny()
+                .orElse(null);
+        return githuber;
+    }
 }

@@ -42,4 +42,9 @@ public class DumbGithuberDAO implements GithuberDAO {
     public void removeGithuber(String login) {
 
     }
+
+    @Override
+    public void removeGithuberId(long id) {
+
+    }
 }

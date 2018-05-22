@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view contentType="text/html" encoding="UTF-8" locale="fr"/>
+<h:body>
+<ui:composition template="template.xhtml">
+    <ui:define name="pageTitle">
+        <h:outputText value="Save our Githuber"/>
+    </ui:define>
+    <ui:define name="contents">
+        <h:form>
+            <fieldset>
+                <legend>Login information :</legend>
+
+            <h:messages/>
+            <h:outputLabel for="login">Login :</h:outputLabel>
+            <h:inputText id="login" value="#{trackController.login}" styleClass="form-control" size="39" maxlength="39" required="true">
+                <f:validateRequired/>
+                <f:validateLength maximum="39"/>
+                <f:validateRegex pattern="[a-zA-Z0-9][a-zA-Z0-9\-]*"/>
+            </h:inputText>
+                <h:commandButton value="Register" action="#{trackController.track}"/>
+            </fieldset>
+        </h:form>
+    </ui:define>
+</ui:composition>
+</h:body>
+</html>

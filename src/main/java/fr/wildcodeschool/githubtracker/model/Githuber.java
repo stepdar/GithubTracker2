@@ -9,7 +9,7 @@ public class Githuber {
     private String name;
     private String email;
     private String login;
-    private  int id;
+    private  long id;
     private String avatar_url;
 
     public Githuber() {
@@ -17,7 +17,7 @@ public class Githuber {
 
     @JsonCreator
     public Githuber(@JsonProperty("name") String name, @JsonProperty("email") String email,
-                    @JsonProperty("login")String login,@JsonProperty("id") int id, @JsonProperty("avatar_url") String avatar_url) {
+                    @JsonProperty("login")String login,@JsonProperty("id") long id, @JsonProperty("avatar_url") String avatar_url) {
         this.name = name;
         this.email = email;
         this.login = login;
@@ -51,11 +51,11 @@ public class Githuber {
         this.login = login;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view contentType="text/html" encoding="UTF-8" locale="fr"/>
+<h:body>
+        <ui:composition template="template.xhtml">
+        <ui:define name="pageTitle">
+            <h:outputText value="All our Githubers"/>
+        </ui:define>
+        <ui:define name="contents">
+        <div class="container">
+            <h2>Githubers Table</h2>
+            <h:panelGroup id="githubersList">
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Login</th>
+                    <th>Avatar</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <ui:repeat value="#{githubersController.allGithubers}" var="githuber">
+                    <tr>
+                        <td>#{githuber.id}</td>
+                        <td>#{githuber.name}</td>
+                        <td>#{githuber.email}</td>
+                        <td>#{githuber.login}</td>
+                        <td><h:graphicImage  value="#{githuber.avatar_url}" alt="#{githuber.name}" /></td>
+                        <td><h:form>
+                            <h:commandButton styleClass="btn btn-outline-danger btn-sm" value="Untrack">
+                                <f:ajax listener="#{githubersController.untrack(githuber.id)}" render="githubersList"/>
+                            </h:commandButton>
+                        </h:form></td>
+                    </tr>
+                </ui:repeat>
+
+                </tbody>
+            </table>
+            </h:panelGroup>
+        </div>
+        </ui:define>
+        </ui:composition>
+    </h:body>
+
+</html>

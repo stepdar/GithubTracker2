@@ -73,7 +73,7 @@ public class JDBCGithuberDAO implements GithuberDAO {
                 ResultSet rs = stmt.executeQuery(sql);
                 while(rs.next()){
                     //Retrieve by column name
-                    int id  = rs.getInt("id");
+                    long id  = rs.getLong("id");
                     int github_id  = rs.getInt("github_id");
                     String name = rs.getString("name");
                     String login = rs.getString("login");
@@ -137,7 +137,7 @@ public class JDBCGithuberDAO implements GithuberDAO {
                 //datasource
                 ordre = githubertackerSource.getConnection().prepareStatement(INSERT_GITHUBER);
                 //valoriser les paramètres
-                ordre.setInt(1, githuber.getId());
+                ordre.setLong(1, githuber.getId());
                 ordre.setString(2, githuber.getName());
                 ordre.setString(3, githuber.getLogin());
                 ordre.setString(4, githuber.getEmail());
@@ -175,5 +175,21 @@ public class JDBCGithuberDAO implements GithuberDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void removeGithuberId(long id) {
+        PreparedStatement pst;
+
+        try {
+            pst= githubertackerSource.getConnection().prepareStatement("DELETE FROM githuber WHERE github_id = ?");
+            pst.setLong(1, id);
+
+            pst.executeUpdate();
+            //getGithubers();
+            pst.close();
+        } catch (SQLException e) {
+        e.printStackTrace();
+    }
     }
 }

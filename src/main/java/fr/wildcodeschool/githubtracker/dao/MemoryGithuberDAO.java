@@ -59,6 +59,11 @@ public class MemoryGithuberDAO implements GithuberDAO  {
 
     }
 
+    @Override
+    public void removeGithuberId(long id) {
+
+    }
+
 
     @PostConstruct
     private void getMemoryGithubers(){
