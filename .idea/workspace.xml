@@ -6,65 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c3380b-7784-4820-b9b3-e38ae03bc9e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/GithubersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/JsfConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faces/githubers.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faces/template.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/faces/track.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/githubers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/githubers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/githubers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/githubers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/MemoryGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="91c3380b-7784-4820-b9b3-e38ae03bc9e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,7 +21,7 @@
       <file leaf-file-name="track.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/faces/track.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state>
               <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
             </state>
           </provider>
@@ -121,7 +63,7 @@
       <file leaf-file-name="JDBCGithuberDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="2460">
               <caret line="179" column="13" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -130,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TrackController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
@@ -142,24 +84,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GithubersService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GithubersService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="765">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#746#747#0" expanded="true" />
                 <element signature="e#790#791#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Githuber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -283,6 +216,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -407,8 +342,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -644,6 +577,7 @@
       <workItem from="1526918399460" duration="11874000" />
       <workItem from="1526971867177" duration="625000" />
       <workItem from="1527000756946" duration="438000" />
+      <workItem from="1527012855188" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="ajout de web-INF">
       <created>1525810594210</created>
@@ -656,7 +590,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183082000" />
+    <option name="totallyTimeSpent" value="184158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,19 +603,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32858992" />
       <window_info anchor="right" id="Maven Projects" order="10" />
-      <window_info anchor="right" id="CDI" order="9" weight="0.32975152" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.32975152" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="JSF" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
@@ -693,17 +626,17 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.33117723" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36481243" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32858992" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68175936" visible="true" weight="0.21428572" />
-      <window_info id="Web" order="6" sideWeight="0.3182406" side_tool="true" visible="true" weight="0.21428572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32858992" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7899807" visible="true" weight="0.21685971" />
+      <window_info id="Web" order="6" sideWeight="0.21001926" side_tool="true" visible="true" weight="0.21685971" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32729626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32729626" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,31 +654,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/faces/githubers.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/faces/template.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -960,17 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/faces/template.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -980,7 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/faces/track.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state>
           <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
         </state>
       </provider>
@@ -1007,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="2460">
           <caret line="179" column="13" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1021,6 +922,22 @@
           <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1755" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
           </folding>
         </state>
       </provider>
