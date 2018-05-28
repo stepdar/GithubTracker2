@@ -2,7 +2,8 @@ package fr.wildcodeschool.githubtracker.controller;
 
 import fr.wildcodeschool.githubtracker.dao.GithubUtils;
 import fr.wildcodeschool.githubtracker.dao.GithuberDAO;
-import fr.wildcodeschool.githubtracker.dao.InDatabase;
+import fr.wildcodeschool.githubtracker.dao.InJpa;
+import fr.wildcodeschool.githubtracker.model.Githuber;
 import fr.wildcodeschool.githubtracker.service.GithubersService;
 
 import javax.enterprise.context.RequestScoped;
@@ -18,9 +19,14 @@ public class TrackController {
     @Inject
     GithubUtils utils;
 
-    @Inject
+    //quête jdbc
+    /*@Inject
     @InDatabase
-    GithuberDAO memoryList;
+    GithuberDAO dao;*/
+
+    @Inject
+    @InJpa
+    GithuberDAO dao;
 
     @Inject
     private GithubersService ghs;
@@ -37,8 +43,9 @@ public class TrackController {
 
     public String track(){
 
-        if(utils.parseGithuber(login)!=null) {
-            memoryList.saveGithuber(utils.parseGithuber(login));
+        Githuber githuber = utils.parseGithuber(login);
+        if(githuber !=null) {
+            dao.saveGithuber(githuber);
 
             return "/faces/githubers.jsf?faces-redirect=true";
         }else {

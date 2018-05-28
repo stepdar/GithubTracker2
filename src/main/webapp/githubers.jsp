@@ -16,13 +16,13 @@
     <tbody>
     <c:forEach items="${listGithuber}" var="githuber">
         <tr>
-            <td><c:out value="${githuber.id}" /></td>
+            <td><c:out value="${githuber.githubId}" /></td>
             <td><c:out value="${githuber.name}" /></td>
             <td><c:out value="${githuber.email}" /></td>
             <td><c:out value="${githuber.login}" /></td>
             <td><img src="<c:out value="${githuber.avatar_url}"/>" alt="icone" /></td>
             <td><form action="/GithubTracker2/untrack" method="post">
-                <input type="hidden" name="loginGit" value="${githuber.login}">
+                <input type="hidden" name="idGit" value="${githuber.id}">
                 <button type="submit" name="delete" id="delete" >Delete</button><br>
             </form></td>
         </tr>

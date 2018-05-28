@@ -7,7 +7,7 @@ import java.util.List;
 
 
 public interface GithuberDAO {
-    List<Githuber> getGithubers();
+    List getGithubers();
 
     Githuber getGithuber(String login);
 

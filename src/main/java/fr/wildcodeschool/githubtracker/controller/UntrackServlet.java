@@ -18,8 +18,9 @@ public class UntrackServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String login = request.getParameter("loginGit");
-        ghs.untrack(login);
+        String id = request.getParameter("idGit");
+        Long idGithuber = Long.parseLong(id);
+        ghs.untrack2(idGithuber);
         request.setAttribute("listGithuber",ghs.getAllGithubers());
         request.getRequestDispatcher("/githubers.jsp").forward(request, response);
     }

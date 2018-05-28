@@ -4,9 +4,11 @@
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/controller/GithubersController.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/dao/GithubUtils.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java
+/home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/dao/InJpa.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/controller/GithubersServlet.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackServlet.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.java
+/home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/dao/JPAGithuberDAO.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/dao/InDatabase.java
 /home/wilder/IdeaProjects/GithubTracker2/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java

@@ -13,9 +13,14 @@ import java.io.IOException;
 
 @WebServlet(name = "TrackServlet", urlPatterns = "/track")
 public class TrackServlet extends HttpServlet {
-   @Inject
+   //quete jdbc
+   /* @Inject
    @InDatabase
-   GithuberDAO memoryList;
+   GithuberDAO dao;*/
+
+   @Inject
+   @InJpa
+   GithuberDAO daoJpa;
 
    @Inject
    GithubUtils utils;
@@ -24,7 +29,7 @@ public class TrackServlet extends HttpServlet {
 
             String login = request.getParameter("login");
 
-           memoryList.saveGithuber(utils.parseGithuber(login));
+          daoJpa.saveGithuber(utils.parseGithuber(login));
             response.sendRedirect("/GithubTracker2/githubers?login="+login);
 
     }

@@ -9,8 +9,10 @@ fr/wildcodeschool/githubtracker/service/ObjectMapperProducer.class
 fr/wildcodeschool/githubtracker/dao/GithubUtils.class
 fr/wildcodeschool/githubtracker/dao/InMemory.class
 fr/wildcodeschool/githubtracker/service/JsfConfig.class
+fr/wildcodeschool/githubtracker/dao/JPAGithuberDAO.class
 fr/wildcodeschool/githubtracker/dao/InDatabase.class
 fr/wildcodeschool/githubtracker/dao/DumbGithuberDAO.class
 fr/wildcodeschool/githubtracker/controller/GithubersServlet.class
 fr/wildcodeschool/githubtracker/controller/TrackController.class
+fr/wildcodeschool/githubtracker/dao/InJpa.class
 fr/wildcodeschool/githubtracker/model/Githuber.class

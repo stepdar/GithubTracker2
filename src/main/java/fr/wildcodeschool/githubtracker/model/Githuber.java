@@ -4,13 +4,33 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import javax.ejb.Stateful;
+import javax.persistence.*;
+import java.io.Serializable;
 
-public class Githuber {
+@Entity
+@Table(name="githuber")
+public class Githuber implements Serializable {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(name="github_id")
+    private long githubId;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "email")
     private String email;
+
+    @Column(name = "login")
     private String login;
-    private  long id;
+
+    @Column(name = "avatar_url")
     private String avatar_url;
+
 
     public Githuber() {
     }
@@ -21,10 +41,22 @@ public class Githuber {
         this.name = name;
         this.email = email;
         this.login = login;
-        this.id = id;
+        this.githubId = id;
         this.avatar_url = avatar_url;
     }
 
+    public long getGithubId() {
+        return githubId;
+    }
+
+    public void setGithubId(long githubId) {
+        this.githubId = githubId;
+    }
+
+    @Transient
+    public boolean isNew() {
+        return id == null;
+    }
 
 
     public String getName() {
@@ -51,11 +83,11 @@ public class Githuber {
         this.login = login;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
