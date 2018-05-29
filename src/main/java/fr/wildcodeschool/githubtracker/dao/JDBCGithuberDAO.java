@@ -29,7 +29,7 @@ public class JDBCGithuberDAO implements GithuberDAO {
             + " VALUES (null, ?, ?, ? ,null, ? , null , null , ?)";
 
 
-    @Resource(name = "jdbc/TestPool")
+   @Resource(name = "jdbc/TestPool")
    private DataSource githubertackerSource;
 
     //private static pour jdbc simple

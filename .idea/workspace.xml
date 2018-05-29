@@ -6,41 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c3380b-7784-4820-b9b3-e38ae03bc9e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/InJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/JPAGithuberDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/TrackServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/UntrackServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/controller/UntrackServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/dao/GithuberDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/model/Githuber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/wildcodeschool/githubtracker/service/GithubersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/githubers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/githubers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/GithubersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/GithubersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/TrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/TrackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/TrackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/TrackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/UntrackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/controller/UntrackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/WEB-INF/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/GithubTracker2/githubers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/GithubTracker2/githubers.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/GithubersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/GithubersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/TrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/TrackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/TrackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/TrackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/UntrackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/controller/UntrackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/GithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/dao/JDBCGithuberDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/model/Githuber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/wildcodeschool/githubtracker/service/GithubersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="91c3380b-7784-4820-b9b3-e38ae03bc9e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -637,7 +603,7 @@
       <workItem from="1527508128310" duration="5642000" />
       <workItem from="1527514915784" duration="37000" />
       <workItem from="1527515172418" duration="7562000" />
-      <workItem from="1527531483160" duration="2739000" />
+      <workItem from="1527531483160" duration="3348000" />
     </task>
     <task id="LOCAL-00001" summary="ajout de web-INF">
       <created>1525810594210</created>
@@ -650,7 +616,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219422000" />
+    <option name="totallyTimeSpent" value="220031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -663,7 +629,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1602" height="912" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -680,7 +645,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988358" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.3182406" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3182406" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32903227" />
